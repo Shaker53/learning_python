@@ -1,0 +1,5 @@
+time = int(input())
+hour = int(input())
+minu = int(input())
+print((hour*60 + minu + time)//60)
+print((hour*60 + minu + time)%60)
